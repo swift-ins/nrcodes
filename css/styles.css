@@ -840,3 +840,55 @@ padding: 7px 0 0;
         from { opacity: 0; transform: translate(-50%, 10px); }
         to { opacity: 1; transform: translate(-50%, 0); }
     }
+@media only screen and (max-width: 768px) {
+    .banner-inner h2 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .banner-inner p {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .project-card {
+        font-size: 1em;
+        padding: 15px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .language-switcher {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .media.service-box .pull-left {
+        display: none; /* Скрываем иконки сбоку на малых экранах */
+    }
+
+    .media.service-box .media-body {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    img.img-responsive {
+        max-width: 100%;
+        height: auto;
+    }
+}
