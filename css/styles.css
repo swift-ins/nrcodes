@@ -244,18 +244,18 @@ color: #FFFFFF;
   color: #45aed6;
 }
 #hero-banner.banner-inner .btn {
-  margin-top: 10px;
+  margin-top: 7vw;
 } 
  
 #hero-text {
-  padding: 50px 0;
+  padding: 9vw 0;
   border-top: 1px solid #FFFFFF;
 }
 #hero-text h2 {
   margin-top: 0;
 }
 #hero-text .btn {
-  margin-top: 40px;
+  margin-top: 5vw;
 }
 #cta2 {
   background: #45b1da;
